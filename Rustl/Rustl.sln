@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26020.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rustl.UI.Android", "Rustl.UI.Android\Rustl.UI.Android.csproj", "{B15E8164-9AAA-4DA4-BBA3-317F58B87399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Global", "0. Global", "{5F4522DC-A10E-439D-BAC5-6011F943C297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{2CBA9526-EB18-4A0F-A9C1-760EC498059A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{F95BA892-5EB2-4370-8763-24C917B1926C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DataServices", "3. DataServices", "{3A3A9C1D-D8A4-40CC-9784-2B887EDF4D0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. UI", "4. UI", "{F751B853-B760-4939-A2BE-457D3455B1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rustl.Core.Models", "Rustl.Core.Models\Rustl.Core.Models.csproj", "{5AC78161-EF20-4073-A0C5-D36139033F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rustl.Core.Interfaces", "Rustl.Core.Interfaces\Rustl.Core.Interfaces.csproj", "{708B72A3-E9D2-40E4-8031-A37F48A4CF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rustl.Services.Implementation", "Rustl.Services.Implementation\Rustl.Services.Implementation.csproj", "{D67A8835-847F-45BF-98B6-1BA4B267DD02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5AC78161-EF20-4073-A0C5-D36139033F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC78161-EF20-4073-A0C5-D36139033F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC78161-EF20-4073-A0C5-D36139033F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC78161-EF20-4073-A0C5-D36139033F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708B72A3-E9D2-40E4-8031-A37F48A4CF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708B72A3-E9D2-40E4-8031-A37F48A4CF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708B72A3-E9D2-40E4-8031-A37F48A4CF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708B72A3-E9D2-40E4-8031-A37F48A4CF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67A8835-847F-45BF-98B6-1BA4B267DD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67A8835-847F-45BF-98B6-1BA4B267DD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67A8835-847F-45BF-98B6-1BA4B267DD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67A8835-847F-45BF-98B6-1BA4B267DD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B15E8164-9AAA-4DA4-BBA3-317F58B87399} = {F751B853-B760-4939-A2BE-457D3455B1FE}
+		{5AC78161-EF20-4073-A0C5-D36139033F53} = {2CBA9526-EB18-4A0F-A9C1-760EC498059A}
+		{708B72A3-E9D2-40E4-8031-A37F48A4CF47} = {5F4522DC-A10E-439D-BAC5-6011F943C297}
+		{D67A8835-847F-45BF-98B6-1BA4B267DD02} = {F95BA892-5EB2-4370-8763-24C917B1926C}
+	EndGlobalSection
+EndGlobal
